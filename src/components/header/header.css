@@ -1,0 +1,88 @@
+.header {
+    height: 100vh;
+    padding-top: 3rem;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/*=============CTA===================*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+
+}
+
+/*==========Header Socials===========*/
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/*=========header image (image name side.png)========*/
+.side {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    /* (left:cal(50% - 11rem);) is same as (left:50%; , transform:translateX(-50%);) */
+    margin-top: 4rem;
+    border-radius: 10rem 10rem 0 0;
+    overflow: hidden;
+    /*padding: 5rem 1.5rem 1.5rem 1.5rem; for pushing image from top*/
+}
+
+/*==================Scroll down element=================*/
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+}
+
+/*======media screens(medium)======*/
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 100vh;
+    }
+}
+
+/*======media screens(small)======*/
+@media screen and (max-width: 600px) {
+    .header {
+        height: 100vh;
+    }
+
+
+
+    .side {
+        background: linear-gradient(var(--color-primary), transparent);
+        width: 15rem;
+        height: 20rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 2rem;
+        border-radius: 10rem 10rem 0 0;
+        overflow: hidden;
+        padding: 5rem 1.5rem 1.5rem 1.5rem;
+    }
+}
