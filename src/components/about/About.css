@@ -8,11 +8,12 @@
     max-width: 100vw;
 }
 
+
 .about-me {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    background: linear-gradient(10deg, transparent, rgb(218, 228, 185), transparent);
     display: grid;
     place-items: center;
 }

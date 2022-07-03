@@ -1,0 +1,89 @@
+
+/* Modal Button */
+.modalButton {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    padding: 12px 24px;
+}
+
+.modalContainer {
+    height: 280px;
+    width: 276px;
+    position: fixed;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background: transparent;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    border: 1px solid var(--color-primary-variant);
+
+}
+
+
+.closeBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 7px 5px;
+    gap: 10px;
+
+    position: absolute;
+    left: 30.8%;
+    right: 26.81%;
+    top: 76.43%;
+    bottom: 6.79%;
+
+    border: 1px solid #479E7F;
+    background: var(--color-primary-variant);
+    border-radius: 15px;
+}
+
+.closeBtn-text {
+    width: 64px;
+    height: 33px;
+    position: absolute;
+    cursor: pointer;
+    left: 25px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.email-header {
+    position: absolute;
+    left: 16.3%;
+    right: 14.49%;
+    top: 6.43%;
+    bottom: 82.86%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}

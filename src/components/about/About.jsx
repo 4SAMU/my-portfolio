@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Me from '../../Assets/me.png'
+import Me from '../../Assets/me.jpg'
 import { FaAward } from 'react-icons/fa'
 import { AiOutlineUsergroupAdd } from 'react-icons/ai'
 import { VscNewFolder } from 'react-icons/vsc'
@@ -37,9 +37,8 @@ const about = () => {
                         </article>
                     </div>
                     <p>
-                        software Developer software Developer software Developer software Developer software Developer
-                        software Developer software Developer software Developer software Developer software Developer
-                        software Developer software Developer software Developer software Developer software Developer
+                        I'm motivated, adaptable and responsible software engineer who will always utilize the professional and technical skills developed through thorough studies and experiences in this field. I have a strong self-drive
+                        to work and see things through completion.
                     </p> <br />
 
                     <a href='#Contact' className='btn btn-primary'>Lets Talk </a>
