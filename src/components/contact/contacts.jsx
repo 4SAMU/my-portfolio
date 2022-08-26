@@ -21,6 +21,13 @@ function Contacts() {
             });
     };
 
+    const checkScreen=()=>{
+        if(window.innerHeight > window.innerWidth){
+            window.alert("Please rotate screen to landscape!");
+        }
+    }
+    checkScreen();
+
     return (
         <section id='Contact'>
             <h5>Get In Touch</h5>

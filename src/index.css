@@ -106,6 +106,7 @@ a:hover {
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     margin-top: 1%;
+    background: transparent;
 }
 
 .btn:hover {
