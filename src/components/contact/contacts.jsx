@@ -23,7 +23,7 @@ function Contacts() {
 
     const checkScreen=()=>{
         if(window.innerHeight > window.innerWidth){
-            window.alert("Please rotate screen to landscape!");
+            window.alert("take a better view in your desktop!");
         }
     }
     checkScreen();
