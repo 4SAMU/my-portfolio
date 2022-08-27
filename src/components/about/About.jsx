@@ -41,7 +41,7 @@ const about = () => {
                         to work and see things through completion.
                     </p> <br />
 
-                    <a href='#Contact' className='btn btn-primary'>Lets Talk </a>
+                    <a href='#Contact' ><button className='btn btn-primary'>Lets Talk </button></a>
                 </div>
 
             </div>
