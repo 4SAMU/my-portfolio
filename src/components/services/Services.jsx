@@ -12,7 +12,7 @@ const Services = () => {
             </div>
             <div className='heading'>My Services</div>
             <div className='what_i_do'>
-                <div className='what_i_do_header'>what I do:</div>
+                <div className='what_i_do_header'>What I do</div>
                 <div className='what_i_do_text '>Software Development</div>
                 <div className='what_i_do_text '>Web Development</div>
                 <div className='what_i_do_text '>Web Design</div>
