@@ -1,0 +1,171 @@
+/** @format */
+
+.services {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}
+
+.heading {
+  position: absolute;
+  width: max-content;
+  height: 48px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 90px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #418eca;
+}
+
+.gifArea {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  left: 300px;
+  top: 250px;
+  border-radius: 20px;
+}
+
+.what_i_do {
+  position: absolute;
+  width: 443px;
+  height: 600px;
+  left: 191px;
+  top: 313px;
+  background: #1f1f38;
+  border: 1px solid #4db5ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.what_i_do_header {
+  position: absolute;
+  width: 285px;
+  height: 48px;
+  left: 50px;
+  top: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 48px;
+
+  color: #4db5ff;
+}
+
+.what_i_do_text {
+  position: relative;
+  width: max-content;
+  left: 50px;
+  top: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+
+.skills {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  left: 40%;
+  top: 169px;
+
+  background: #1f1f38;
+  border: 1px solid #4db5ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.skills_text {
+  position: relative;
+  width: 172px;
+  left: 50px;
+  top: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+
+.skills_bar {
+  position: relative;
+  width: 200px;
+  height: 11px;
+  top: -22px;
+  left: 200px;
+  border: 1px solid #3d82bc;
+  border-radius: 20px;
+}
+
+.reactjs {
+  position: absolute;
+  width: 185px;
+  height: 10px;
+
+  background: #3d82bc;
+  border-radius: 20px;
+}
+
+.html {
+  position: absolute;
+  width: 185px;
+  height: 10px;
+
+  background: #3d82bc;
+  border-radius: 20px;
+}
+
+.css {
+  position: absolute;
+  width: 185px;
+  height: 10px;
+
+  background: #3d82bc;
+  border-radius: 20px;
+}
+
+.c_sharp {
+  position: absolute;
+  width: 140px;
+  height: 10px;
+
+  background: #3d82bc;
+  border-radius: 20px;
+}
+
+.js {
+  position: absolute;
+  width: 125px;
+  height: 10px;
+
+  background: #3d82bc;
+  border-radius: 20px;
+}
+
+.solidity {
+  position: absolute;
+  width: 95px;
+  height: 10px;
+
+  background: #3d82bc;
+  border-radius: 20px;
+}
