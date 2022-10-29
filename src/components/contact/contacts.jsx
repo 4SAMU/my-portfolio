@@ -50,7 +50,7 @@ function Contacts() {
                     <article className='contact__option'>
                         <RiWhatsappFill className='contact__option-icon' />
                         <h4>Whatsapp Me</h4>
-                        <a href="https://wa.me/+25413563798">send a message</a>
+                        <a href="https://wa.me/+254713563798">send a message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
